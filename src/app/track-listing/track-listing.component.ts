@@ -4,8 +4,8 @@ import {Album} from '../album'
 
 @Component({
   selector: 'app-track-listing',
-  templateUrl: './product-track-listing.component.html',
-  styleUrls: ['./product-track-listing.component.css']
+  templateUrl: './track-listing.component.html',
+  styleUrls: ['./track-listing.component.css']
 })
 export class TrackListingComponent implements OnInit {
 

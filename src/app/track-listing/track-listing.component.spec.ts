@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TrackListingComponent } from './product-track-listing.component';
+import { TrackListingComponent } from './track-listing.component';
 
 describe('TrackListingComponent', () => {
   let component: TrackListingComponent;
