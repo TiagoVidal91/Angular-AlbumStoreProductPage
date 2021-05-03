@@ -13,7 +13,7 @@ private _albumUrl = "../assets/album.json"
   constructor(private _http: Http)  { }
 
   getAlbum(id: number) : Observable<Album>{
-    return this._http.get(this._albumUrl).map((response  => <Album> response.json));
+    return this._http.get(this._albumUrl).map((response  => <Album> <unknown>response.json));
   }
 
 }
