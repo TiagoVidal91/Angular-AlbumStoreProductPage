@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { ProductService } from './product.service';
-import { TrackListingComponent } from './track-listing/track-listing.component';
+import { TrackListingComponent } from './product-tracklisting/product-tracklisting.component';
 
 @NgModule({
   declarations: [
